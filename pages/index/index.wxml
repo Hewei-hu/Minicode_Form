@@ -3,91 +3,91 @@
   <input placeholder="Input please" placeholder-class="placeholder" bindinput='Input' type='string'></input>
 
   <view class="select-wrap">
-    <view class='content'>1. 公司成立年限</view>
+    <view class='content'>1. </view>
     <select id="select" options="{{options1}}" key="city_id" text="city_name" bind:change="change1"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>2. 注册资本规模（以实缴资本为准）</view>
+    <view class='content'>2. </view>
     <select id="select" options="{{options2}}" key="city_id" text="city_name" bind:change="change2"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>3. 公司及法定代表人对外投资情况</view>
+    <view class='content'>3. </view>
     <select id="select" options="{{options3}}" key="city_id" text="city_name" bind:change="change3"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>4. 员工社保缴纳人数</view>
+    <view class='content'>4. </view>
     <select id="select" options="{{options4}}" key="city_id" text="city_name" bind:change="change4"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>5. 是否高新技术企业</view>
+    <view class='content'>5. </view>
     <select id="select" options="{{options5}}" key="city_id" text="city_name" bind:change="change5"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>6. 企业行业情况</view>
+    <view class='content'>6. </view>
     <select id="select" options="{{options6}}" key="city_id" text="city_name" bind:change="change6"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>7. 内部信用评估等级</view>
+    <view class='content'>7. </view>
     <select id="select" options="{{options7}}" key="city_id" text="city_name" bind:change="change7"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>8. 快乐e贷信用评级</view>
+    <view class='content'>8. </view>
     <select id="select" options="{{options8}}" key="city_id" text="city_name" bind:change="change8"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>9. 公司经营场所面积</view>
+    <view class='content'>9. </view>
     <select id="select" options="{{options9}}" key="city_id" text="city_name" bind:change="change9"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>10. 公司融资合作银行数量</view>
+    <view class='content'>10. </view>
     <select id="select" options="{{options10}}" key="city_id" text="city_name" bind:change="change10"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>11. 纳税总额</view>
+    <view class='content'>11. </view>
     <select id="select" options="{{options11}}" key="city_id" text="city_name" bind:change="change11"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>12. 所得税纳税情况</view>
+    <view class='content'>12. </view>
     <select id="select" options="{{options12}}" key="city_id" text="city_name" bind:change="change12"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>13. 收入增长率</view>
+    <view class='content'>13. </view>
     <select id="select" options="{{options13}}" key="city_id" text="city_name" bind:change="change13"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>14. 企业发明专利数量</view>
+    <view class='content'>14. </view>
     <select id="select" options="{{options16}}" key="city_id" text="city_name" bind:change="change16"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>15. 电费同比增长情况</view>
+    <view class='content'>15.</view>
     <select id="select" options="{{options17}}" key="city_id" text="city_name" bind:change="change17"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>16. 审计报告</view>
+    <view class='content'>16.</view>
     <select id="select" options="{{options18}}" key="city_id" text="city_name" bind:change="change18"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>17. 财政补贴</view>
+    <view class='content'>17.</view>
     <select id="select" options="{{options19}}" key="city_id" text="city_name" bind:change="change19"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>18. 公司或个人在园区获奖</view>
+    <view class='content'>18.</view>
     <select id="select" options="{{options20}}" key="city_id" text="city_name" bind:change="change20"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>19. 实际控制人资产情况</view>
+    <view class='content'>19.</view>
     <select id="select" options="{{options21}}" key="city_id" text="city_name" bind:change="change21"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>20. 实际控制人负债情况</view>
+    <view class='content'>20.</view>
     <select id="select" options="{{options22}}" key="city_id" text="city_name" bind:change="change22"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>21. 机器设备情况</view>
+    <view class='content'>21.</view>
     <select id="select" options="{{options23}}" key="city_id" text="city_name" bind:change="change23"></select>
   </view>
   <view class="select-wrap">
-    <view class='content'>22. 增值税纳申报表收入</view>
+    <view class='content'>22.</view>
     <select id="select" options="{{options24}}" key="city_id" text="city_name" bind:change="change24"></select>
   </view>
  
