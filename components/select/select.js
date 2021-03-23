@@ -8,7 +8,7 @@ Component({
       type: Object,
       value: {
         id: '0',
-        name: '未选择'
+        name: 'No choose'
       }
     },
     key: {
