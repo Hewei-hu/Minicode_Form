@@ -102,7 +102,7 @@
   <checkbox-group bindchange="checkboxChange">
 
 
-    <label class='checkbox' for='specise'> 额度种类：</label>
+    <label class='checkbox' for='specise'> Kinds：</label>
   <label class="checkbox" wx:for="{{items}}">
     <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
   </label>
