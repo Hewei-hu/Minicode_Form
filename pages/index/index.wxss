@@ -1,0 +1,47 @@
+page {
+  background: #f1f0f6;
+}
+
+
+.select-wrap {
+  width: 100%;
+  
+}
+
+.selected {
+  margin-top: 50%;
+}
+
+button{
+  margin: 30rpx 50rpx;
+  background-color: rgb(126, 103, 103);
+  color: white;
+}
+
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+label{
+  padding: 10px;
+}
+.content{
+  font-weight:bold ;
+  background: #fff;
+  padding: 10px;
+  color:rgb(126, 103, 103);
+}
+.content-item{
+  padding: 3rpx;
+  font-size: 15px;
+  line-height: 30px;
+}
+.placeholder{
+  font-size: 15px;
+}
+
+input{
+  height: 120rpx;
+  margin-bottom: 1px;
+  padding-left: 8px;
+}
