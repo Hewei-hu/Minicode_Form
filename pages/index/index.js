@@ -15,378 +15,297 @@ Page({
     score1:'',
     score2:'',
     items: [
-      { name: 'P', value: '制造业额度' },
-      { name: 'B', value: '商贸业额度' },
+      { name: 'P', value: 'Manufacturing ' },
+      { name: 'B', value: 'Business' },
     ],
     options1: [{
       city_id: '0',
-      city_name: '2年以内'
+      city_name: 'Below 2 years'
     },{
       city_id: '1',
-      city_name: '2（含）-5年'
+      city_name: '2 (contain)-5 years'
     }, {
       city_id: '2',
-      city_name: '5年（含）-10年'
+      city_name: '5 years (contain) -10 years'
     }, {
       city_id: '3',
-      city_name: '10年（含）以上'
+      city_name: 'Above 10 years '
     }],
     options2: [{
       city_id: '0',
-      city_name: '200万以下'
+      city_name: 'Below 2million'
     },{
       city_id: '1',
-      city_name: '200万（含）-500万'
+      city_name: '2 million (contain) - 5 million'
     }, {
       city_id: '2',
-      city_name: '500万（含）-1000万'
+      city_name: '5 million(contain)- 10 million'
     }, {
       city_id: '3',
-      city_name: '1000万（含）-2000万'
+      city_name: '10 million(contain)- 20 million'
     },{
       city_id: '4',
-      city_name: '2000万（含）-5000万'
+      city_name: '20 million(contain)- 50 million'
     },{
       city_id: '5',
-      city_name: '5000万（含）以上'
+      city_name: 'Above 50 million(contain)'
     }],
     options3: [{
       city_id: '0',
-      city_name: '未设立'
+      city_name: 'None'
     },{
       city_id: '1',
-      city_name: '1-2家'
+      city_name: '1-2'
     }, {
       city_id: '2',
-      city_name: '3-5家'
+      city_name: '3-5'
     }, {
       city_id: '3',
-      city_name: '6家以上'
+      city_name: 'Above 6'
     }],
     options4: [{
       city_id: '0',
-      city_name: '10人以内'
+      city_name: 'Below 10 people '
     },{
       city_id: '1',
-      city_name: '10（含）-30人'
+      city_name: '10 (contain)-30'
     }, {
       city_id: '2',
-      city_name: '30（含）-50人'
+      city_name: '30 (contain)-50'
     }, {
       city_id: '3',
-      city_name: '50人（含）-100人'
+      city_name: '50 (contain)-100'
     },{
       city_id: '4',
-      city_name: '100人以上'
+      city_name: 'Above 100'
     }],
     options5: [{
       city_id: '0',
-      city_name: '不是高新技术企业'
+      city_name: 'NO'
     }, {
       city_id: '3',
-      city_name: '是高新技术企业'
+      city_name: 'YES'
     }],
     options6: [{
       city_id: '0',
-      city_name: '禁止类'
+      city_name: 'Ban'
     },{
       city_id: '1',
-      city_name: '限制性介入'
+      city_name: 'Restrictive intervention'
     }, {
       city_id: '2',
-      city_name: '选择性支持'
+      city_name: 'Selective support'
     }, {
       city_id: '3',
-      city_name: '优先支持或经开区主导行业'
+      city_name: 'Priority to support'
     }],
-    options1: [{
-      city_id: '0',
-      city_name: '2年以内'
-    },{
-      city_id: '1',
-      city_name: '2（含）-5年'
-    }, {
-      city_id: '2',
-      city_name: '5年（含）-10年'
-    }, {
-      city_id: '3',
-      city_name: '10年（含）以上'
-    }],
-    options2: [{
-      city_id: '0',
-      city_name: '200万以下'
-    },{
-      city_id: '1',
-      city_name: '200万（含）-500万'
-    }, {
-      city_id: '2',
-      city_name: '500万（含）-1000万'
-    }, {
-      city_id: '3',
-      city_name: '1000万（含）-2000万'
-    },{
-      city_id: '4',
-      city_name: '2000万（含）-5000万'
-    },{
-      city_id: '5',
-      city_name: '5000万（含）以上'
-    }],
-    options3: [{
-      city_id: '0',
-      city_name: '未设立'
-    },{
-      city_id: '1',
-      city_name: '1-2家'
-    }, {
-      city_id: '2',
-      city_name: '3-5家'
-    }, {
-      city_id: '3',
-      city_name: '6家以上'
-    }],
-    options4: [{
-      city_id: '0',
-      city_name: '10人以内'
-    },{
-      city_id: '1',
-      city_name: '10（含）-30人'
-    }, {
-      city_id: '2',
-      city_name: '30（含）-50人'
-    }, {
-      city_id: '3',
-      city_name: '50人（含）-100人'
-    },{
-      city_id: '4',
-      city_name: '100人以上'
-    }],
-    options5: [{
-      city_id: '0',
-      city_name: '不是高新技术企业'
-    }, {
-      city_id: '3',
-      city_name: '是高新技术企业'
-    }],
-    options6: [{
-      city_id: '0',
-      city_name: '禁止类'
-    },{
-      city_id: '1',
-      city_name: '限制性介入'
-    }, {
-      city_id: '2',
-      city_name: '选择性支持'
-    }, {
-      city_id: '3',
-      city_name: '优先支持或经开区主导行业'
-    }],
-
+    
     options7: [{
       city_id: '0',
-      city_name: 'BBB+及以下'
+      city_name: 'Below BBB+'
     },{
       city_id: '1',
-      city_name: 'A-至A+'
+      city_name: 'A- to A+'
     }, {
       city_id: '2',
-      city_name: 'AA-及以上'
+      city_name: 'Above AA-'
     }],
     options8: [{
       city_id: '0',
-      city_name: 'D级及以下'
+      city_name: 'Below D'
     },{
       city_id: '1',
-      city_name: 'C级'
+      city_name: 'C'
     }, {
       city_id: '2',
-      city_name: 'B级'
+      city_name: 'B'
     }, {
       city_id: '3',
-      city_name: 'A级'
+      city_name: 'A'
     }],
     options9: [{
       city_id: '0',
-      city_name: '200平米以内'
+      city_name: 'below 200 meters square'
     },{
       city_id: '1',
-      city_name: '200（含）-500平米'
+      city_name: '200 (contain) - 500'
     }, {
       city_id: '2',
-      city_name: '500（含）-1000平米'
+      city_name: '500 (contain) - 1000'
     }, {
       city_id: '3',
-      city_name: '1000（含）平米-2000平米'
+      city_name: '1000 (contain) - 2000'
     }],
     options10: [{
       city_id: '0',
-      city_name: '无银行授信'
+      city_name: 'None'
     },{
       city_id: '1',
-      city_name: '1家'
+      city_name: '1'
     }, {
       city_id: '2',
-      city_name: '2家'
+      city_name: '2'
     }, {
       city_id: '3',
-      city_name: '3家及以上'
+      city_name: 'Above 3 (contain)'
     }],
     options11: [{
       city_id: '1',
-      city_name: '10万以内'
+      city_name: 'below 100k'
     },{
       city_id: '2',
-      city_name: '10（含）-50万'
+      city_name: '100k (contain)-500k'
     },{
       city_id: '3',
-      city_name: '50（含）-100万'
+      city_name: '500k (contain)-1 million'
     },{
       city_id: '4',
-      city_name: '100（含）-500万'
+      city_name: '1 million (contain)-5 million'
     },{
       city_id: '5',
-      city_name: '500万以上'
+      city_name: 'Above 5million (contain)'
     }],
     options12: [{
       city_id: '0',
-      city_name: '未缴纳所得税'
+      city_name: 'None'
     },{
       city_id: '1',
-      city_name: '10万以内'
+      city_name: 'below 100k'
     }, {
       city_id: '2',
-      city_name: '10-50万'
+      city_name: '100k -500k'
     }, {
       city_id: '3',
-      city_name: '50万以上'
+      city_name: 'Above 500k '
     }],
 
     options13: [{
       city_id: '0',
-      city_name: '负增长'
+      city_name: 'Negative growth'
     },{
       city_id: '1',
-      city_name: '10%以下'
+      city_name: 'Below 10%'
     }, {
       city_id: '2',
-      city_name: '10%（含）-20%'
+      city_name: '10% (contain)-20%'
     }, {
       city_id: '3',
-      city_name: '20%（含）-30%'
+      city_name: '20% (contain)-30%'
     }],
     options16: [{
       city_id: '0',
-      city_name: '没有'
+      city_name: 'None'
     },{
       city_id: '1',
-      city_name: '2个以内'
+      city_name: 'Below 2'
     }, {
       city_id: '2',
-      city_name: '2（含）-5个'
+      city_name: '2 (contain)-5'
     }, {
       city_id: '3',
-      city_name: '5（含）个以上'
+      city_name: 'Above 5 (contain)'
     }],
     options17: [{
       city_id: '0',
-      city_name: '近3个月电费未增长'
+      city_name: 'No increased in the last three months'
     },{
       city_id: '1',
-      city_name: '增长10%'
+      city_name: '10%'
     }, {
       city_id: '2',
       city_name: '10-20%'
     }, {
       city_id: '3',
-      city_name: '20%以上'
+      city_name: 'Above 20%'
     }],
     options18: [{
       city_id: '0',
-      city_name: '不可提供审计报告'
+      city_name: 'Can not'
     }, {
       city_id: '2',
-      city_name: '可提供审计报告'
+      city_name: 'Can'
     }],
     options19: [{
       city_id: '0',
-      city_name: '近1年未获得政府补助'
+      city_name: 'Nearly 1 year not to receive government subsidies'
     },{
       city_id: '1',
-      city_name: '1-30万'
+      city_name: '1-300k'
     }, {
       city_id: '2',
-      city_name: '30-50万'
+      city_name: '300k-500k'
     }, {
       city_id: '3',
-      city_name: '50万以上'
+      city_name: 'Above 500k'
     }],
     options20: [{
       city_id: '0',
-      city_name: '未获奖'
+      city_name: 'NO'
     }, {
       city_id: '2',
-      city_name: '获奖'
+      city_name: 'YES'
     }],
 
     options21: [{
       city_id: '0',
-      city_name: '实际控制人无住宅'
+      city_name: 'no residence'
     },{
       city_id: '1',
-      city_name: '有1套住宅'
+      city_name: '1'
     }, {
       city_id: '2',
-      city_name: '有2套住宅'
+      city_name: '2'
     }, {
       city_id: '3',
-      city_name: '有3套及以上住宅'
+      city_name: 'Above 3'
     }],
 
     options22: [{
       city_id: '0',
-      city_name: '负债100万以上'
+      city_name: 'Debt more than 1 million'
     },{
       city_id: '1',
-      city_name: '负债50-100万'
+      city_name: '500k-1 million'
     }, {
       city_id: '2',
-      city_name: '负债50万以内'
+      city_name: 'Below 500k'
     }, {
       city_id: '3',
-      city_name: '实际控制人夫妻无银行负债'
+      city_name: 'Couple no bank debt'
     }],
 
     options23: [{
       city_id: '0',
-      city_name: '未投入机器设备'
+      city_name: 'None'
     },{
       city_id: '1',
-      city_name: '100万以内'
+      city_name: 'Below 1 million'
     }, {
       city_id: '2',
-      city_name: '100-200万'
+      city_name: '1m-2m'
     }, {
       city_id: '3',
-      city_name: '200万以上'
+      city_name: 'Above 2m'
     }],
 
     options24: [{
       city_id: '0',
-      city_name: '500万以内'
+      city_name: 'Below 5m'
     },{
       city_id: '1',
-      city_name: '500-1000万'
+      city_name: '5m-10m'
     }, {
       city_id: '2',
-      city_name: '1000-2000万'
+      city_name: '10m-20m'
     }, {
       city_id: '3',
-      city_name: '2000-3000万'
+      city_name: '20m-30m'
     }, {
       city_id: '4',
-      city_name: '3000-4000万'
+      city_name: '30m-40m'
     }, {
       city_id: '5',
-      city_name: '4000万以上'
+      city_name: 'Above 40m'
     }],
     selected: {}
   },
@@ -531,7 +450,7 @@ Page({
     this.setData({
       selectedBox :e.detail.value
     });
-    console.log('checkbox发生change事件，携带value值为：',this.data.selectedBox)
+    console.log('checkbox change，value：',this.data.selectedBox)
   },
   submit:function(){
     var number = (this.data.selected1.id*1 + this.data.selected2.id*1 + this.data.selected3.id*1 + this.data.selected4.id*1+ this.data.selected5.id*1+ this.data.selected6.id*1 + this.data.selected7.id*1 + this.data.selected8.id*1 + this.data.selected9.id*1 + this.data.selected10.id*1 + this.data.selected11.id*1 + this.data.selected12.id*1 + this.data.selected13.id*1 + this.data.selected16.id*1 + this.data.selected17.id*1 + this.data.selected18.id*1 + this.data.selected19.id*1 + this.data.selected20.id*1 + this.data.selected21.id*1 + this.data.selected22.id*1 + this.data.selected23.id*1 + this.data.selected24.id*1)/75;
