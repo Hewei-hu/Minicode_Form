@@ -3,7 +3,7 @@
 Submit a form on the WeChat Mini Program
 # Page
 
-***index***Means all configurations on the page 
+***index*** Means all configurations on the page 
 
 ***index.js*** is the place that puting function
 
