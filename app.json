@@ -6,7 +6,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "预授信额度测算表",
+    "navigationBarTitleText": "Test Form",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
