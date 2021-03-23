@@ -454,8 +454,8 @@ Page({
   },
   submit:function(){
     var number = (this.data.selected1.id*1 + this.data.selected2.id*1 + this.data.selected3.id*1 + this.data.selected4.id*1+ this.data.selected5.id*1+ this.data.selected6.id*1 + this.data.selected7.id*1 + this.data.selected8.id*1 + this.data.selected9.id*1 + this.data.selected10.id*1 + this.data.selected11.id*1 + this.data.selected12.id*1 + this.data.selected13.id*1 + this.data.selected16.id*1 + this.data.selected17.id*1 + this.data.selected18.id*1 + this.data.selected19.id*1 + this.data.selected20.id*1 + this.data.selected21.id*1 + this.data.selected22.id*1 + this.data.selected23.id*1 + this.data.selected24.id*1)/75;
-    var one = number * (this.data.score1*1/3 - this.data.score2*1);
-    var two = number * (this.data.score1*1/6 - this.data.score2*1);
+    var one = number * (this.data.score1*1 - this.data.score2*1);
+    var two = number * (this.data.score1*1 - this.data.score2*1);
     var top = this.data.score3*2;
     var upnumber = 500;
     if (one > top && top < upnumber){
