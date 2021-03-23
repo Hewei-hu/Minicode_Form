@@ -1,6 +1,6 @@
 <view class="container" bindtap="close">
-  <view class='content'>公司名称</view>
-  <input placeholder="请输入：公司名称" placeholder-class="placeholder" bindinput='Input' type='string'></input>
+  <view class='content'>Name</view>
+  <input placeholder="Input please" placeholder-class="placeholder" bindinput='Input' type='string'></input>
 
   <view class="select-wrap">
     <view class='content'>1. 公司成立年限</view>
@@ -92,12 +92,12 @@
   </view>
  
 
-  <view class='content'>23. 去年销售收入 （单位：万元）</view>
-  <input placeholder="请输入：去年销售收入" placeholder-class="placeholder" bindinput='Input1' type='number'></input>
-  <view class='content'>24. 已有银行授信 （单位：万元）</view>
-  <input placeholder="请输入：已有银行授信" placeholder-class="placeholder" bindinput='Input2' type='number'></input>
-  <view class='content'>25. 快乐e贷额度 （单位：万元）</view>
-  <input placeholder="请输入：快乐e贷额度" placeholder-class="placeholder" bindinput='Input3' type='number'></input>
+  <view class='content'>23. Last year's sales revenue去年销售收入 (Unit：10k)</view>
+  <input placeholder="Input please." placeholder-class="placeholder" bindinput='Input1' type='number'></input>
+  <view class='content'>24. Bank credit has been granted (Unit：10k)</view>
+  <input placeholder="Input please." placeholder-class="placeholder" bindinput='Input2' type='number'></input>
+  <view class='content'>25. Quota (Unit：10k)</view>
+  <input placeholder="Input please." placeholder-class="placeholder" bindinput='Input3' type='number'></input>
 
   <checkbox-group bindchange="checkboxChange">
 
@@ -109,27 +109,27 @@
 
 </checkbox-group>
 
-  <button bindtap='submit'>提交</button>
+  <button bindtap='submit'>Sumit</button>
 </view>
 
 <view hidden='{{flag}}' class='content'>
-  <view class='content-item'>公司名称:{{name}}</view>
+  <view class='content-item'>Name:{{name}}</view>
 </view>
 
 <view hidden='{{flag1}}' class='content'>
-  <view class='content-item'>制造业额度（最高担保额度）:{{real1}}</view>
+  <view class='content-item'>Manufacturing (Max guarantee):{{real1}}</view>
 </view>
 <view hidden='{{flag1}}' class='content'>
-  <view class='content-item'>制造业额度（模型参考值）:{{sum1}}</view>
+  <view class='content-item'>Manufacturing (Reference value):{{sum1}}</view>
 </view>
 
 <view hidden='{{flag2}}' class='content'>
-  <view class='content-item'>商贸业额度（最高担保额度）:{{real2}}</view>
+  <view class='content-item'>Bussiness (Max guarantee):{{real2}}</view>
 </view>
 <view hidden='{{flag2}}' class='content'>
-  <view class='content-item'>商贸业额度（模型参考值）:{{sum2}}</view>
+  <view class='content-item'>Bussiness  (Reference value):{{sum2}}</view>
 </view>
 
 <view hidden='{{flag}}' class='content'>
-  <view class='content-item'>系数:{{sum}}</view>
+  <view class='content-item'> Coef :{{sum}}</view>
 </view>
