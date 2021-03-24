@@ -15,8 +15,8 @@ Page({
     score1:'',
     score2:'',
     items: [
-      { name: 'P', value: 'Manufacturing ' },
-      { name: 'B', value: 'Business' },
+      { name: 'P', value: 'Kind 1 ' },
+      { name: 'B', value: 'Kind 2' },
     ],
     options1: [{
       city_id: '0',
@@ -227,7 +227,7 @@ Page({
     }],
     options19: [{
       city_id: '0',
-      city_name: 'Nearly 1 year not to receive government subsidies'
+      city_name: 'None in 1 year'
     },{
       city_id: '1',
       city_name: '1-300k'
