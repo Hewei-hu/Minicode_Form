@@ -92,11 +92,11 @@
   </view>
  
 
-  <view class='content'>23. Last year's sales revenue (Unit：10k)</view>
+  <view class='content'>23. Input 1 </view>
   <input placeholder="Input please." placeholder-class="placeholder" bindinput='Input1' type='number'></input>
-  <view class='content'>24. Bank credit has been granted (Unit：10k)</view>
+  <view class='content'>24. Input 2 </view>
   <input placeholder="Input please." placeholder-class="placeholder" bindinput='Input2' type='number'></input>
-  <view class='content'>25. Quota (Unit：10k)</view>
+  <view class='content'>25. Input 3 </view>
   <input placeholder="Input please." placeholder-class="placeholder" bindinput='Input3' type='number'></input>
 
   <checkbox-group bindchange="checkboxChange">
@@ -117,17 +117,17 @@
 </view>
 
 <view hidden='{{flag1}}' class='content'>
-  <view class='content-item'>Manufacturing (Max guarantee) :{{real1}}</view>
+  <view class='content-item'>Output k1.1 :{{real1}}</view>
 </view>
 <view hidden='{{flag1}}' class='content'>
-  <view class='content-item'>Manufacturing (Reference value) :{{sum1}}</view>
+  <view class='content-item'>Output k1.2 :{{sum1}}</view>
 </view>
 
 <view hidden='{{flag2}}' class='content'>
-  <view class='content-item'>Bussiness (Max guarantee) :{{real2}}</view>
+  <view class='content-item'>Output k2.1 :{{real2}}</view>
 </view>
 <view hidden='{{flag2}}' class='content'>
-  <view class='content-item'>Bussiness  (Reference value) :{{sum2}}</view>
+  <view class='content-item'>Output k2.2 :{{sum2}}</view>
 </view>
 
 <view hidden='{{flag}}' class='content'>
